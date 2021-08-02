@@ -29,12 +29,12 @@ Eine Bibliothek um aktuelle Wetter Daten auszulesen
         und Features der Library zu erhalten
      
      Main:
-     def main():
-    """
+    def main():
+        """
 
-    It is to test the program
-    """
-    w = Weather('Madrid')
-    item = w.get_item('temperature', 'feels_like', 'celsius')
+        It is to test the program
+        """
+        w = Weather('Madrid')
+        item = w.get_item('temperature', 'feels_like', 'celsius')
     print('Weather_data: ', item)
  
