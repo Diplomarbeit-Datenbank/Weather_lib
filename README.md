@@ -1,7 +1,8 @@
 # Weather_lib
 ![image](https://user-images.githubusercontent.com/87471423/127824947-1dca7def-fa95-4721-a362-bd008ab2ed69.png)
 
-Bildquelle: https://de.wikipedia.org/wiki/OpenWeatherMap#/media/Datei:OpenWeather-Logo.jpg \n
+Bildquelle: https://de.wikipedia.org/wiki/OpenWeatherMap#/media/Datei:OpenWeather-Logo.jpg
+
 Eine Bibliothek um aktuelle Wetter Daten auszulesen
 
 
