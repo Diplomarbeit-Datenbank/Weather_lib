@@ -64,7 +64,7 @@ class Weather:
         """
         self.weather_data = None
         self.destination = destination
-        self.__ApiKey__ = 'acf332399352867a4d3b1d80b0bed26f'
+        self.__ApiKey__ = __YOUR_API_KEY_FROM_OPEN_WEATHER_MAP__
 
         self._fill_weather_data()
 
@@ -178,8 +178,7 @@ def main():
     """
     w = Weather('Madrid')
     item = w.get_item('temperature', 'feels_like', 'celsius')
-    print(item)
-
+    print('Weather_data: ', item)
 
 if __name__ == '__main__':
     main()
