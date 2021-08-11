@@ -7,25 +7,27 @@ Eine Bibliothek um aktuelle Wetter Daten auszulesen
 
 
 ## Funktionen:
-    o Herausfinden der aktuellen Wetterlage eines stantortes
-    o Einfache anwendung durch get_item() Funktion
-    o Korrekte und präziese angabe von Warnungen und Fehlern bei verwendung des Codes
+    o Herausfinden der aktuellen Wetterlage eines Standortes
+    o Einfache Anwendung durch get_item() Funktion
+    o Korrekte und präzise Angabe von Warnungen und Fehlern bei Verwendung des Codes
     o Zurückgabe in verschiedenen Einheiten 
       Windgeschwindigkeit: (km/h, mp/h)
       Temperatur:          (°C, °F, °K)
+
  
  ## Benötigte Librarys:
-     o inspect:   -> Für genaue angabe der Zeile, aus der die Warnung oder der Error entspringt
+     o inspect:   -> Für genaue Angabe der Zeile, aus der die Warnung oder der Error entspringt
                   -> pip install inspect
      o termcolor: -> Um Warnungen in einer anderen Farbe, als Fehler hervorzuheben
                   -> pip install termcolor
-     o pyowm:     -> Für den erhalt der Wetterdaten aus allen Regionen der Welt
+     o pyowm:     -> Für den Erhalt der Wetterdaten aus allen Regionen der Welt
                   -> pip install pyowm (API key erforderlich Link: https://openweathermap.org/api
      o sys:       -> Angabe der Errors mit file=sys.stderr
-                  -> pip install sys 
+                  -> pip install sys
+
  
  ## Verwendung:
-     -> Einfach starten der main Funktion im File: weather.py um einen einblick in die vielen Funktionen
+     -> Einfach starten der main Funktion im File: weather.py um einen Einblick in die vielen Funktionen
         und Features der Library zu erhalten
      
      Main:
