@@ -26,7 +26,7 @@ Eine Bibliothek um aktuelle Wetter Daten auszulesen
                   -> pip install sys
 
  
- ## Verwendung:
+ ## Entwickler Verwendung:
      -> Einfach starten der main Funktion im File: weather.py um einen Einblick in die vielen Funktionen
         und Features der Library zu erhalten
      
@@ -39,4 +39,13 @@ Eine Bibliothek um aktuelle Wetter Daten auszulesen
         w = Weather('Madrid')
         item = w.get_item('temperature', 'feels_like', 'celsius')
     print('Weather_data: ', item)
+ 
+## Eigenschaften:
+    o Copyright Christof Haidegger
+    o Erstellt von Christof Haidegger
+    o Debugging von Christof Haidegger
+    
+    o Geschriebene Zeilen in Python Code: 186
+    o Geschriebene Zeilen in README-Code: 52
+    
  
